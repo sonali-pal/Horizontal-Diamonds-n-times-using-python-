@@ -1,1 +1,2 @@
-# Horizontal-Diamonds-n-times-using-python-
+learning code
+-

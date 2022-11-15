@@ -1,0 +1,40 @@
+n=5
+i=1
+n_1=(n+1)/2
+while i<=n_1:
+    for j in range(4):
+        space=1
+        while space<=n_1-i:
+            print(" ",end="")
+            space=space+1
+        star=1
+        while star<=i:
+            print("* ",end="")
+            star=star+1
+        space_1=1
+        while space_1<=n_1-i:
+            print(" ",end="")
+            space_1=space_1+1
+    print()
+    i=i+1
+    
+s=i
+while s<=n:
+    
+    for j in range(4):
+        space_2=1
+        while space_2<=n-i:
+            print(" ",end="")
+            space_2=space_2+1
+        a=1
+        while a<=n-(s-1):
+            print("* ",end="")
+            a=a+1
+        space4=1
+        while space4<=n-i:
+            print(" ",end="")
+            space4=space4+1
+    print()
+    s+=1
+    i=i-1
+
